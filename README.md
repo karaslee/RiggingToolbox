@@ -2,9 +2,7 @@ RiggingToolbox
 ==============
 The Rigging Toolbox provides a collection of production relevant tools that can be used directly, or as references when building character pipelines using Fabric Engine.
 
-Currently the Rigging Toolbox provides a small collection of Math and Kinematics helpers, but this list will be expanded over the coming months. 
-
-We will provide new math types, kinematics and geometry operators based on production uses cases given to us by our user base. 
+Currently the Rigging Toolbox provides a small collection of Math and Kinematics helpers. Of particular note is an implementation of DeltaMush.
 
 Interfaces
 --------------
@@ -19,6 +17,11 @@ Usage
 =====
 
 Simply clone or fork the Rigging Toolbox repo and add the path to the RiggingToolbox/Exts folder to your FABRIC_EXTS_PATH environment variable. 
+
+Please Note
+------------------------
+
+While hosted under github/fabric-engine, the RiggingToolbox was developed by Phil Taylor. It is fully up-to-date for the Rivera and Rothko branches, but only DeltaMush has been updated for compatibility with Pablo (Fabric 2). 
 
 Pushing Changes
 ------------------------
